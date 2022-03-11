@@ -1,0 +1,7 @@
+.idea
+*.pyc
+__pycache__
+
+data/*.npz
+data/*.pkl
+checkpoint/*
