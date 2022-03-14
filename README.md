@@ -86,7 +86,7 @@ To train Ray3D with synthetic data, please use the codes from
 We did some optimization for large scale training.
 
 ### Evaluation
-To evaluate the models with public and synthetic datasets, 
+To evaluate the models on the public and the synthetic datasets, 
 you can run the following command by specifying different configuration files,
 timestamps and checkpoints:
 ```bash
@@ -95,6 +95,8 @@ python3 main.py \
     --timestamp Oct_31_2021_05_43_36 \
     --evaluate best_epoch.bin
 ```
+
+To evaluate Ray3D on the synthetic dataset with 14-joint set up, please use these [scripts](scripts/synthetic).
 
 ### Visualization
 We use the same visualization techniques provided by 
