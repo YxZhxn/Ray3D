@@ -5,6 +5,9 @@ This repository contains the implementation of the approach described in the pap
 Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization. 
 In Conference on Computer Vision and Pattern Recognition (CVPR), 2022.
 
+###### 3D pose estimation by Ray3D in the world coordinate system
+<p align="center"><img src="images/ray3d.h36m.gif" width="100%" alt="" /></p>
+
 # Quick start
 
 ### Dependencies
