@@ -56,7 +56,8 @@ class Human36mDataset(MocapDataset):
                 t = np.array(cam['translation'], dtype=np.float64).reshape(3, 1)
                 camera_info[subject].append(CameraInfoPacket(P=None, K=K, R=R, t=t,
                                                              res_w=cam['res_w'], res_h=cam['res_h'],
-                                                             azimuth=cam['azimuth'], dist_coeff=dist_coeff))
+                                                             azimuth=cam['azimuth'], dist_coeff=dist_coeff,
+                                                             undistort=False))
         self.camera_info = camera_info
 
         # Load serialized dataset
