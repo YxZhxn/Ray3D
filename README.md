@@ -1,11 +1,14 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ray3d-ray-based-3d-human-pose-estimation-for/monocular-3d-human-pose-estimation-on-human3)](https://paperswithcode.com/sota/monocular-3d-human-pose-estimation-on-human3?p=ray3d-ray-based-3d-human-pose-estimation-for)
 # Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization
 
 This repository contains the implementation of the approach described in the paper:
 > Yu Zhan, Fenghai Li, Renliang Weng, and Wongun Choi. 
-Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization. 
+[Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization.](https://arxiv.org/abs/2203.11471) 
 In Conference on Computer Vision and Pattern Recognition (CVPR), 2022.
 
 ###### 3D pose estimation by Ray3D in the world coordinate system
+Dashed lines denote 3D ground-truth poses. 
+Solid lines represent the poses estimated by Ray3D.
 <p align="center"><img src="images/ray3d.h36m.gif" width="100%" alt="" /></p>
 
 # Quick start
@@ -110,7 +113,7 @@ python3 main.py \
     --render
 ```
 
-### Citation
+# Citation
 If you find this repository useful, please cite our paper:
 ```
 @Inproceedings{yzhan2022,
@@ -121,7 +124,7 @@ If you find this repository useful, please cite our paper:
 }
 ```
 
-### Acknowledgement
+# Acknowledgement
 Our implementation took inspiration from the following authors and repositories:
 * [matteorr](https://github.com/matteorr)
 * [Pose3D-RIE](https://github.com/paTRICK-swk/Pose3D-RIE)
