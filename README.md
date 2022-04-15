@@ -55,7 +55,7 @@ python3 camera_intrinsic.py
 Then, run the following preprocessing script:
 ```bash
 # 2). generate synthetic data for camera extrinsic test
-python3 camera_intrinsic.py
+python3 camera_augmentation.py
 ```
 
 Finally, use the following preprocessing script to generate training file for synthetic training
