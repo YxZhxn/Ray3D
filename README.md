@@ -116,11 +116,13 @@ python3 main.py \
 # Citation
 If you find this repository useful, please cite our paper:
 ```
-@Inproceedings{yzhan2022,
-  Title          = {Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization},
-  Author         = {Yu Zhan, Fenghai Li, Renliang Weng, and Wongun Choi},
-  Booktitle      = {CVPR},
-  Year           = {2022}
+@InProceedings{Zhan_2022_CVPR,
+    author    = {Zhan, Yu and Li, Fenghai and Weng, Renliang and Choi, Wongun},
+    title     = {Ray3D: Ray-Based 3D Human Pose Estimation for Monocular Absolute 3D Localization},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {13116-13125}
 }
 ```
 
