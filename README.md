@@ -113,6 +113,9 @@ python3 main.py \
     --render
 ```
 
+# License
+This work is licensed under Apache-2.0. See LICENSE for details.
+
 # Citation
 If you find this repository useful, please cite our paper:
 ```
